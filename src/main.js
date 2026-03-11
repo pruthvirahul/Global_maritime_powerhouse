@@ -1,3 +1,6 @@
+import shipData from '../data/ships.json'
+import missileData from '../data/missiles.json'
+
 import './style.css'
 
 // ─── STATE ───────────────────────────────────────────────────────
@@ -82,13 +85,12 @@ function renderNav() {
 
 async function fetchAll() {
   try {
-    const [shipRes, missileRes] = await Promise.all([
-      fetch('http://localhost:3001/api/ships'),
-      fetch('http://localhost:3001/api/missiles'),
-    ])
-    if (!shipRes.ok || !missileRes.ok) throw new Error('Backend error')
-    allShips = await shipRes.json()
-    allMissiles = await missileRes.json()
+    // Simulate network delay for the boot loading sequence
+    await new Promise(resolve => setTimeout(resolve, 600))
+
+    allShips = shipData
+    allMissiles = missileData
+
     // Don't re-render Upgrade Lab on auto-refresh to avoid disrupting user interaction
     if (currentView !== 'upgrade') renderView()
   } catch (e) {
@@ -96,8 +98,8 @@ async function fetchAll() {
       <div class="error-container">
         <div class="error-icon">📡</div>
         <h2 class="error-msg">TACTICAL LINK OFFLINE</h2>
-        <p class="error-sub">Backend server unreachable. Run <code>npm run start</code></p>
-        <button class="retry-btn" onclick="location.reload()">RECONNECT</button>
+        <p class="error-sub">System error initializing static data banks.</p>
+        <button class="retry-btn" onclick="location.reload()">REBOOT SYSTEM</button>
       </div>
     `
   }
