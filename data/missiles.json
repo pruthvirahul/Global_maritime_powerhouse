@@ -1,0 +1,978 @@
+[
+    {
+        "id": "brahmos",
+        "name": "BrahMos",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "India",
+        "range_km": 290,
+        "speed": "Mach 2.8",
+        "warhead_kg": 300,
+        "guidance": "INS/GPS + Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Submarine",
+            "Aircraft",
+            "Land"
+        ],
+        "year_inducted": 2006,
+        "generation": "Current",
+        "threat_level": 92,
+        "stats": {
+            "range": 58,
+            "speed": 93,
+            "accuracy": 90,
+            "lethality": 88,
+            "evasion": 85
+        },
+        "description": "Supersonic cruise missile jointly developed by India and Russia. One of the fastest cruise missiles in the world."
+    },
+    {
+        "id": "tomahawk",
+        "name": "Tomahawk (BGM-109)",
+        "type": "Cruise Missile",
+        "category": "Land Attack",
+        "nation": "USA",
+        "range_km": 2500,
+        "speed": "Mach 0.74",
+        "warhead_kg": 450,
+        "guidance": "INS/GPS/TERCOM/DSMAC",
+        "launch_platform": [
+            "Ship",
+            "Submarine"
+        ],
+        "year_inducted": 1983,
+        "generation": "Block V",
+        "threat_level": 88,
+        "stats": {
+            "range": 100,
+            "speed": 25,
+            "accuracy": 95,
+            "lethality": 85,
+            "evasion": 60
+        },
+        "description": "Long-range, all-weather, subsonic cruise missile. Battle-proven across multiple conflicts since 1991."
+    },
+    {
+        "id": "kalibr",
+        "name": "Kalibr (3M-54)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "Russia",
+        "range_km": 2500,
+        "speed": "Mach 2.9 (terminal)",
+        "warhead_kg": 450,
+        "guidance": "INS/GLONASS + Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Submarine"
+        ],
+        "year_inducted": 2012,
+        "generation": "Current",
+        "threat_level": 91,
+        "stats": {
+            "range": 100,
+            "speed": 90,
+            "accuracy": 88,
+            "lethality": 90,
+            "evasion": 82
+        },
+        "description": "Russian cruise missile family with supersonic terminal sprint capability. Combat-proven in Syria."
+    },
+    {
+        "id": "yj-21",
+        "name": "YJ-21 (Eagle Strike)",
+        "type": "Ballistic Missile",
+        "category": "Anti-Ship Ballistic",
+        "nation": "China",
+        "range_km": 1500,
+        "speed": "Mach 10",
+        "warhead_kg": 500,
+        "guidance": "INS + Terminal Radar",
+        "launch_platform": [
+            "Ship",
+            "Land"
+        ],
+        "year_inducted": 2022,
+        "generation": "Current",
+        "threat_level": 96,
+        "stats": {
+            "range": 75,
+            "speed": 100,
+            "accuracy": 82,
+            "lethality": 95,
+            "evasion": 97
+        },
+        "description": "Hypersonic anti-ship ballistic missile. Near-impossible to intercept with current defense systems."
+    },
+    {
+        "id": "df-21d",
+        "name": "DF-21D (Carrier Killer)",
+        "type": "Ballistic Missile",
+        "category": "Anti-Ship Ballistic",
+        "nation": "China",
+        "range_km": 1800,
+        "speed": "Mach 10+",
+        "warhead_kg": 600,
+        "guidance": "INS + OTH Radar + Satellite",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2010,
+        "generation": "Current",
+        "threat_level": 98,
+        "stats": {
+            "range": 82,
+            "speed": 100,
+            "accuracy": 78,
+            "lethality": 98,
+            "evasion": 95
+        },
+        "description": "World's first anti-ship ballistic missile designed to target aircraft carriers. A game-changing A2/AD weapon."
+    },
+    {
+        "id": "harpoon",
+        "name": "Harpoon (AGM-84)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship",
+        "nation": "USA",
+        "range_km": 280,
+        "speed": "Mach 0.85",
+        "warhead_kg": 221,
+        "guidance": "INS + Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Aircraft",
+            "Submarine"
+        ],
+        "year_inducted": 1977,
+        "generation": "Block II+",
+        "threat_level": 72,
+        "stats": {
+            "range": 56,
+            "speed": 28,
+            "accuracy": 82,
+            "lethality": 70,
+            "evasion": 50
+        },
+        "description": "Veteran anti-ship missile in service with 30+ navies worldwide. Reliable but aging platform."
+    },
+    {
+        "id": "zircon",
+        "name": "3M22 Zircon (Tsirkon)",
+        "type": "Hypersonic Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "Russia",
+        "range_km": 1000,
+        "speed": "Mach 9",
+        "warhead_kg": 400,
+        "guidance": "INS/GLONASS + Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Submarine"
+        ],
+        "year_inducted": 2023,
+        "generation": "Current",
+        "threat_level": 97,
+        "stats": {
+            "range": 72,
+            "speed": 98,
+            "accuracy": 85,
+            "lethality": 94,
+            "evasion": 98
+        },
+        "description": "Russia's premier hypersonic anti-ship missile. Virtually impossible to intercept with current technology."
+    },
+    {
+        "id": "lrasm",
+        "name": "LRASM (AGM-158C)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship",
+        "nation": "USA",
+        "range_km": 930,
+        "speed": "Mach 0.85",
+        "warhead_kg": 450,
+        "guidance": "INS/GPS + AI-based autonomous",
+        "launch_platform": [
+            "Ship",
+            "Aircraft"
+        ],
+        "year_inducted": 2019,
+        "generation": "Current",
+        "threat_level": 90,
+        "stats": {
+            "range": 65,
+            "speed": 28,
+            "accuracy": 97,
+            "lethality": 88,
+            "evasion": 85
+        },
+        "description": "Next-gen stealthy anti-ship missile with autonomous AI guidance. Extremely difficult to detect."
+    },
+    {
+        "id": "exocet",
+        "name": "Exocet (MM40 Block 3)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship",
+        "nation": "France",
+        "range_km": 200,
+        "speed": "Mach 0.93",
+        "warhead_kg": 165,
+        "guidance": "INS/GPS + Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Aircraft",
+            "Submarine"
+        ],
+        "year_inducted": 1979,
+        "generation": "Block 3",
+        "threat_level": 70,
+        "stats": {
+            "range": 40,
+            "speed": 30,
+            "accuracy": 80,
+            "lethality": 65,
+            "evasion": 55
+        },
+        "description": "French anti-ship missile famous for sinking HMS Sheffield in the Falklands War. Now in Block 3 variant."
+    },
+    {
+        "id": "type-12",
+        "name": "Type 12 SSM (Block IIA)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "Japan",
+        "range_km": 1500,
+        "speed": "Mach 3+",
+        "warhead_kg": 400,
+        "guidance": "INS/GPS + Multi-mode seeker",
+        "launch_platform": [
+            "Ship",
+            "Land",
+            "Aircraft"
+        ],
+        "year_inducted": 2026,
+        "generation": "Current",
+        "threat_level": 93,
+        "stats": {
+            "range": 75,
+            "speed": 92,
+            "accuracy": 91,
+            "lethality": 87,
+            "evasion": 88
+        },
+        "description": "Japan's next-generation supersonic stand-off missile. A key component of Japan's counter-strike capability."
+    },
+    {
+        "id": "oniks",
+        "name": "P-800 Oniks (Yakhont)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship",
+        "nation": "Russia",
+        "range_km": 600,
+        "speed": "Mach 2.5",
+        "warhead_kg": 300,
+        "guidance": "INS + Active/Passive Radar",
+        "launch_platform": [
+            "Ship",
+            "Submarine",
+            "Land"
+        ],
+        "year_inducted": 2002,
+        "generation": "Current",
+        "threat_level": 86,
+        "stats": {
+            "range": 48,
+            "speed": 88,
+            "accuracy": 84,
+            "lethality": 82,
+            "evasion": 80
+        },
+        "description": "Supersonic anti-ship missile forming the basis of the BrahMos. Deployed extensively across Russian Navy."
+    },
+    {
+        "id": "sm-6",
+        "name": "SM-6 (RIM-174)",
+        "type": "Surface-to-Air / Anti-Ship",
+        "category": "Multi-Role",
+        "nation": "USA",
+        "range_km": 370,
+        "speed": "Mach 3.5",
+        "warhead_kg": 64,
+        "guidance": "Semi-Active + Active Radar",
+        "launch_platform": [
+            "Ship"
+        ],
+        "year_inducted": 2013,
+        "generation": "Block IB",
+        "threat_level": 82,
+        "stats": {
+            "range": 55,
+            "speed": 85,
+            "accuracy": 94,
+            "lethality": 72,
+            "evasion": 70
+        },
+        "description": "US Navy's premier multi-role missile with anti-air, anti-surface, and terminal ballistic missile defense."
+    },
+    {
+        "id": "nirbhay",
+        "name": "Nirbhay",
+        "type": "Cruise Missile",
+        "category": "Land Attack",
+        "nation": "India",
+        "range_km": 1500,
+        "speed": "Mach 0.7",
+        "warhead_kg": 300,
+        "guidance": "INS/GPS/TERCOM",
+        "launch_platform": [
+            "Ship",
+            "Land",
+            "Aircraft"
+        ],
+        "year_inducted": 2024,
+        "generation": "Current",
+        "threat_level": 75,
+        "stats": {
+            "range": 75,
+            "speed": 22,
+            "accuracy": 82,
+            "lethality": 78,
+            "evasion": 60
+        },
+        "description": "India's indigenous long-range subsonic cruise missile with terrain-hugging capability."
+    },
+    {
+        "id": "nsm",
+        "name": "NSM (Naval Strike Missile)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "USA",
+        "range_km": 250,
+        "speed": "Mach 0.95",
+        "warhead_kg": 125,
+        "guidance": "INS/GPS + Imaging Infrared",
+        "launch_platform": [
+            "Ship",
+            "Land"
+        ],
+        "year_inducted": 2018,
+        "generation": "Current",
+        "threat_level": 80,
+        "stats": {
+            "range": 50,
+            "speed": 30,
+            "accuracy": 92,
+            "lethality": 68,
+            "evasion": 82
+        },
+        "description": "Stealthy fifth-generation anti-ship missile. Uses passive imaging seeker making it extremely hard to jam."
+    },
+    {
+        "id": "kh-47m2",
+        "name": "Kh-47M2 Kinzhal",
+        "type": "Hypersonic Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "Russia",
+        "range_km": 2000,
+        "speed": "Mach 10+",
+        "warhead_kg": 480,
+        "guidance": "INS/GLONASS + Terminal",
+        "launch_platform": [
+            "Aircraft"
+        ],
+        "year_inducted": 2018,
+        "generation": "Current",
+        "threat_level": 95,
+        "stats": {
+            "range": 88,
+            "speed": 100,
+            "accuracy": 80,
+            "lethality": 96,
+            "evasion": 96
+        },
+        "description": "Air-launched hypersonic ballistic missile. Maneuvers at Mach 10+ making interception nearly impossible."
+    },
+    {
+        "id": "scalp-naval",
+        "name": "MdCN (SCALP Naval)",
+        "type": "Cruise Missile",
+        "category": "Land Attack",
+        "nation": "France",
+        "range_km": 1400,
+        "speed": "Mach 0.8",
+        "warhead_kg": 450,
+        "guidance": "INS/GPS/TERCOM",
+        "launch_platform": [
+            "Submarine"
+        ],
+        "year_inducted": 2015,
+        "generation": "Current",
+        "threat_level": 78,
+        "stats": {
+            "range": 72,
+            "speed": 26,
+            "accuracy": 88,
+            "lethality": 82,
+            "evasion": 65
+        },
+        "description": "French naval cruise missile launched from Barracuda-class submarines. Strategic deep-strike capability."
+    },
+    {
+        "id": "type-17",
+        "name": "Type 17 (ASM-3A)",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship",
+        "nation": "Japan",
+        "range_km": 400,
+        "speed": "Mach 3+",
+        "warhead_kg": 260,
+        "guidance": "INS + Active/Passive Radar",
+        "launch_platform": [
+            "Aircraft"
+        ],
+        "year_inducted": 2025,
+        "generation": "Current",
+        "threat_level": 88,
+        "stats": {
+            "range": 45,
+            "speed": 92,
+            "accuracy": 86,
+            "lethality": 80,
+            "evasion": 84
+        },
+        "description": "Japan's supersonic anti-ship missile featuring advanced target discrimination and electronic countermeasures."
+    },
+    {
+        "id": "ssn-27",
+        "name": "SS-N-27 Sizzler",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship",
+        "nation": "India",
+        "range_km": 220,
+        "speed": "Mach 2.9 (terminal)",
+        "warhead_kg": 200,
+        "guidance": "INS + Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Submarine"
+        ],
+        "year_inducted": 2005,
+        "generation": "Current",
+        "threat_level": 84,
+        "stats": {
+            "range": 44,
+            "speed": 90,
+            "accuracy": 85,
+            "lethality": 80,
+            "evasion": 78
+        },
+        "description": "Russian-origin Club-class missile in Indian service. Subsonic cruise, supersonic terminal dive attack."
+    },
+    {
+        "id": "ssm-700k",
+        "name": "SSM-700K Haeseong",
+        "type": "Cruise Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "South Korea",
+        "range_km": 250,
+        "speed": "Mach 0.85",
+        "warhead_kg": 230,
+        "guidance": "INS/GPS + IR Imaging",
+        "launch_platform": [
+            "Ship",
+            "Land"
+        ],
+        "year_inducted": 2006,
+        "generation": "Block II",
+        "threat_level": 74,
+        "stats": {
+            "range": 50,
+            "speed": 28,
+            "accuracy": 86,
+            "lethality": 72,
+            "evasion": 60
+        },
+        "description": "South Korea's indigenous subsonic anti-ship cruise missile with land-attack capability."
+    },
+    {
+        "id": "hyunmoo-4",
+        "name": "Hyunmoo-4",
+        "type": "Ballistic Missile",
+        "category": "Land Attack",
+        "nation": "South Korea",
+        "range_km": 800,
+        "speed": "Mach 8+",
+        "warhead_kg": 2000,
+        "guidance": "INS/GPS + Terminal",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2020,
+        "generation": "Current",
+        "threat_level": 90,
+        "stats": {
+            "range": 60,
+            "speed": 95,
+            "accuracy": 80,
+            "lethality": 98,
+            "evasion": 75
+        },
+        "description": "South Korean ballistic missile with a massive 2-ton warhead. Designed to neutralize hardened targets."
+    },
+    {
+        "id": "agni-v",
+        "name": "Agni-V",
+        "type": "Ballistic Missile",
+        "category": "ICBM / Strategic",
+        "nation": "India",
+        "range_km": 5500,
+        "speed": "Mach 24",
+        "warhead_kg": 1500,
+        "guidance": "INS/GPS + Ring Laser Gyro",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2018,
+        "generation": "Current",
+        "threat_level": 97,
+        "stats": {
+            "range": 100,
+            "speed": 100,
+            "accuracy": 82,
+            "lethality": 98,
+            "evasion": 88
+        },
+        "description": "India's intercontinental ballistic missile with MIRV capability. Canister-launched for rapid deployment and road-mobile survivability."
+    },
+    {
+        "id": "brahmos-ii",
+        "name": "BrahMos-II (K)",
+        "type": "Hypersonic Missile",
+        "category": "Anti-Ship / Land Attack",
+        "nation": "India",
+        "range_km": 600,
+        "speed": "Mach 7",
+        "warhead_kg": 300,
+        "guidance": "INS/GPS + AI Seeker",
+        "launch_platform": [
+            "Ship",
+            "Submarine",
+            "Land"
+        ],
+        "year_inducted": 2028,
+        "generation": "Next-Gen",
+        "threat_level": 96,
+        "stats": {
+            "range": 60,
+            "speed": 96,
+            "accuracy": 92,
+            "lethality": 90,
+            "evasion": 94
+        },
+        "description": "Next-generation hypersonic cruise missile under development with scramjet propulsion. Will be the fastest cruise missile in the world."
+    },
+    {
+        "id": "astra-mk2",
+        "name": "Astra Mk-2",
+        "type": "Surface-to-Air / Anti-Ship",
+        "category": "Multi-Role",
+        "nation": "India",
+        "range_km": 160,
+        "speed": "Mach 4.5",
+        "warhead_kg": 60,
+        "guidance": "INS + Active Radar + Dual-pulse",
+        "launch_platform": [
+            "Ship",
+            "Aircraft"
+        ],
+        "year_inducted": 2024,
+        "generation": "Current",
+        "threat_level": 80,
+        "stats": {
+            "range": 45,
+            "speed": 88,
+            "accuracy": 90,
+            "lethality": 65,
+            "evasion": 82
+        },
+        "description": "Indigenous beyond-visual-range air-to-air missile with ship-launch capability. Features active radar homing and high-g maneuverability."
+    },
+    {
+        "id": "shaurya",
+        "name": "Shaurya",
+        "type": "Ballistic Missile",
+        "category": "Land Attack / Strategic",
+        "nation": "India",
+        "range_km": 1900,
+        "speed": "Mach 7.5",
+        "warhead_kg": 1000,
+        "guidance": "INS + Ring Laser Gyro + MEMS",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2020,
+        "generation": "Current",
+        "threat_level": 92,
+        "stats": {
+            "range": 78,
+            "speed": 95,
+            "accuracy": 85,
+            "lethality": 95,
+            "evasion": 86
+        },
+        "description": "Canister-launched hypersonic surface-to-surface missile. Land-based variant of the K-15 SLBM with rapid deployment capability."
+    },
+    {
+        "id": "pralay",
+        "name": "Pralay",
+        "type": "Ballistic Missile",
+        "category": "Tactical / Quasi-Ballistic",
+        "nation": "India",
+        "range_km": 500,
+        "speed": "Mach 7",
+        "warhead_kg": 700,
+        "guidance": "INS/GPS + Terminal Seeker",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2024,
+        "generation": "Current",
+        "threat_level": 88,
+        "stats": {
+            "range": 50,
+            "speed": 92,
+            "accuracy": 88,
+            "lethality": 85,
+            "evasion": 80
+        },
+        "description": "Short-range tactical ballistic missile with quasi-ballistic trajectory. Designed for battlefield superiority with high maneuverability to evade interceptors."
+    },
+    {
+        "id": "k-4",
+        "name": "K-4 SLBM",
+        "type": "Ballistic Missile",
+        "category": "Submarine-Launched / Strategic",
+        "nation": "India",
+        "range_km": 3500,
+        "speed": "Mach 20",
+        "warhead_kg": 2000,
+        "guidance": "INS + Stellar Navigation",
+        "launch_platform": [
+            "Submarine"
+        ],
+        "year_inducted": 2025,
+        "generation": "Current",
+        "threat_level": 95,
+        "stats": {
+            "range": 90,
+            "speed": 100,
+            "accuracy": 80,
+            "lethality": 98,
+            "evasion": 85
+        },
+        "description": "Submarine-launched ballistic missile for India's nuclear triad. Deployed on Arihant-class SSBNs for second-strike deterrence capability."
+    },
+    {
+        "id": "trident-ii",
+        "name": "UGM-133 Trident II (D5)",
+        "type": "Ballistic Missile",
+        "category": "Submarine-Launched / Strategic",
+        "nation": "USA",
+        "range_km": 12000,
+        "speed": "Mach 24",
+        "warhead_kg": 2800,
+        "guidance": "Stellar/INS + GPS",
+        "launch_platform": [
+            "Submarine"
+        ],
+        "year_inducted": 1990,
+        "generation": "Current",
+        "threat_level": 99,
+        "stats": {
+            "range": 100,
+            "speed": 100,
+            "accuracy": 92,
+            "lethality": 100,
+            "evasion": 90
+        },
+        "description": "The backbone of the US Navy's nuclear deterrence. Unmatched reliability with highly accurate multiple independently targetable reentry vehicles (MIRVs)."
+    },
+    {
+        "id": "minuteman-iii",
+        "name": "LGM-30G Minuteman III",
+        "type": "Ballistic Missile",
+        "category": "ICBM / Strategic",
+        "nation": "USA",
+        "range_km": 13000,
+        "speed": "Mach 23",
+        "warhead_kg": 1100,
+        "guidance": "INS",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 1970,
+        "generation": "Legacy (Upgraded)",
+        "threat_level": 96,
+        "stats": {
+            "range": 100,
+            "speed": 98,
+            "accuracy": 85,
+            "lethality": 98,
+            "evasion": 80
+        },
+        "description": "Silo-based ICBM forming the land leg of the US nuclear triad. Features a solid-fueled rocket motor and advanced guidance systems."
+    },
+    {
+        "id": "sm-6",
+        "name": "RIM-174 Standard ERAM (SM-6)",
+        "type": "Surface-to-Air / Anti-Ship",
+        "category": "Multi-Role",
+        "nation": "USA",
+        "range_km": 460,
+        "speed": "Mach 3.5",
+        "warhead_kg": 64,
+        "guidance": "INS/GPS + Active/Semi-Active Radar",
+        "launch_platform": [
+            "Ship",
+            "Land"
+        ],
+        "year_inducted": 2013,
+        "generation": "Current",
+        "threat_level": 92,
+        "stats": {
+            "range": 55,
+            "speed": 82,
+            "accuracy": 98,
+            "lethality": 70,
+            "evasion": 88
+        },
+        "description": "Incredibly versatile missile capable of anti-air warfare, terminal ballistic missile defense, and anti-surface warfare. Features cooperative engagement capability."
+    },
+    {
+        "id": "jassm-er",
+        "name": "AGM-158B JASSM-ER",
+        "type": "Cruise Missile",
+        "category": "Land Attack",
+        "nation": "USA",
+        "range_km": 925,
+        "speed": "Subsonic",
+        "warhead_kg": 450,
+        "guidance": "INS/GPS + IIR Terminal",
+        "launch_platform": [
+            "Aircraft"
+        ],
+        "year_inducted": 2014,
+        "generation": "Current",
+        "threat_level": 90,
+        "stats": {
+            "range": 70,
+            "speed": 35,
+            "accuracy": 98,
+            "lethality": 85,
+            "evasion": 92
+        },
+        "description": "Low-observable standoff cruise missile. Designed to penetrate deeply integrated air defense systems."
+    },
+    {
+        "id": "rs-28",
+        "name": "RS-28 Sarmat",
+        "type": "Ballistic Missile",
+        "category": "ICBM / Strategic",
+        "nation": "Russia",
+        "range_km": 18000,
+        "speed": "Mach 20+",
+        "warhead_kg": 10000,
+        "guidance": "INS/GLONASS + Astro-inertial",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2023,
+        "generation": "Next-Gen",
+        "threat_level": 100,
+        "stats": {
+            "range": 100,
+            "speed": 100,
+            "accuracy": 88,
+            "lethality": 100,
+            "evasion": 96
+        },
+        "description": "Heavy liquid-fueled ICBM capable of flying over the South Pole to evade early warning radars. Deploys multiple Avangard hypersonic glide vehicles."
+    },
+    {
+        "id": "kinzhal",
+        "name": "Kh-47M2 Kinzhal",
+        "type": "Hypersonic Missile",
+        "category": "Air-Launched Ballistic",
+        "nation": "Russia",
+        "range_km": 2000,
+        "speed": "Mach 10",
+        "warhead_kg": 500,
+        "guidance": "INS + GLONASS + Optical",
+        "launch_platform": [
+            "Aircraft"
+        ],
+        "year_inducted": 2017,
+        "generation": "Current",
+        "threat_level": 95,
+        "stats": {
+            "range": 85,
+            "speed": 100,
+            "accuracy": 85,
+            "lethality": 92,
+            "evasion": 96
+        },
+        "description": "Air-launched hypersonic ballistic missile capable of performing evasive maneuvers at every stage of its flight."
+    },
+    {
+        "id": "iskander",
+        "name": "9K720 Iskander-M",
+        "type": "Ballistic Missile",
+        "category": "Tactical Ballistic",
+        "nation": "Russia",
+        "range_km": 500,
+        "speed": "Mach 6",
+        "warhead_kg": 700,
+        "guidance": "INS/GLONASS + Optical DSMAC",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2006,
+        "generation": "Current",
+        "threat_level": 90,
+        "stats": {
+            "range": 50,
+            "speed": 94,
+            "accuracy": 92,
+            "lethality": 88,
+            "evasion": 90
+        },
+        "description": "Highly maneuverable short-range ballistic missile. Known for its ability to deploy decoys and execute intense terminal maneuvers to defeat ABM systems."
+    },
+    {
+        "id": "df-41",
+        "name": "Dongfeng-41 (DF-41)",
+        "type": "Ballistic Missile",
+        "category": "ICBM / Strategic",
+        "nation": "China",
+        "range_km": 15000,
+        "speed": "Mach 25",
+        "warhead_kg": 2500,
+        "guidance": "INS + BeiDou",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2019,
+        "generation": "Current",
+        "threat_level": 98,
+        "stats": {
+            "range": 100,
+            "speed": 100,
+            "accuracy": 85,
+            "lethality": 100,
+            "evasion": 92
+        },
+        "description": "China's most advanced road-mobile ICBM. Capable of carrying up to 10 MIRVs and boasting a range that covers the entire continental United States."
+    },
+    {
+        "id": "df-17",
+        "name": "Dongfeng-17 (DF-17)",
+        "type": "Hypersonic Missile",
+        "category": "Hypersonic Glide Vehicle",
+        "nation": "China",
+        "range_km": 2500,
+        "speed": "Mach 10",
+        "warhead_kg": 500,
+        "guidance": "INS/BeiDou",
+        "launch_platform": [
+            "Land"
+        ],
+        "year_inducted": 2019,
+        "generation": "Current",
+        "threat_level": 96,
+        "stats": {
+            "range": 90,
+            "speed": 100,
+            "accuracy": 92,
+            "lethality": 90,
+            "evasion": 98
+        },
+        "description": "Medium-range ballistic missile system specifically designed to carry the DF-ZF hypersonic glide vehicle. Exceedingly difficult to track and intercept."
+    },
+    {
+        "id": "storm-shadow",
+        "name": "Storm Shadow / SCALP EG",
+        "type": "Cruise Missile",
+        "category": "Land Attack",
+        "nation": "UK",
+        "range_km": 560,
+        "speed": "Mach 0.95",
+        "warhead_kg": 450,
+        "guidance": "INS/GPS + TERPROM + IR",
+        "launch_platform": [
+            "Aircraft"
+        ],
+        "year_inducted": 2003,
+        "generation": "Current",
+        "threat_level": 89,
+        "stats": {
+            "range": 60,
+            "speed": 40,
+            "accuracy": 98,
+            "lethality": 88,
+            "evasion": 86
+        },
+        "description": "Anglo-French low-observable air-launched cruise missile. Features a BROACH penetrator warhead highly effective against hardened bunkers."
+    },
+    {
+        "id": "aster-30",
+        "name": "Aster 30 Block 1 NT",
+        "type": "Surface-to-Air / Anti-Ship",
+        "category": "Multi-Role",
+        "nation": "France",
+        "range_km": 150,
+        "speed": "Mach 4.5",
+        "warhead_kg": 15,
+        "guidance": "INS/GPS + Active Ku-band Radar",
+        "launch_platform": [
+            "Ship",
+            "Land"
+        ],
+        "year_inducted": 2001,
+        "generation": "Current",
+        "threat_level": 85,
+        "stats": {
+            "range": 45,
+            "speed": 88,
+            "accuracy": 96,
+            "lethality": 60,
+            "evasion": 75
+        },
+        "description": "Hit-to-kill naval and land-based air defense missile. 'New Technology' block provides enhanced capability against medium-range ballistic missiles."
+    },
+    {
+        "id": "m51",
+        "name": "M51 SLBM",
+        "type": "Ballistic Missile",
+        "category": "Submarine-Launched / Strategic",
+        "nation": "France",
+        "range_km": 10000,
+        "speed": "Mach 25",
+        "warhead_kg": 1400,
+        "guidance": "Astro-inertial + Galileo",
+        "launch_platform": [
+            "Submarine"
+        ],
+        "year_inducted": 2010,
+        "generation": "Current",
+        "threat_level": 97,
+        "stats": {
+            "range": 100,
+            "speed": 100,
+            "accuracy": 90,
+            "lethality": 98,
+            "evasion": 88
+        },
+        "description": "French submarine-launched ballistic missile deployed on Triomphant-class submarines. Carries multiple hardened thermonuclear warheads."
+    }
+]

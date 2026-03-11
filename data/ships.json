@@ -1,0 +1,496 @@
+[
+    {
+        "id": "gerald-ford",
+        "name": "USS Gerald R. Ford (CVN-78)",
+        "class": "Aircraft Carrier",
+        "nation": "USA",
+        "displacement": "100,000 tons",
+        "speed": "30+ knots",
+        "strengths": [
+            "Unrivaled Power Projection",
+            "EMALS Technology",
+            "Nuclear powered - unlimited range",
+            "Advanced weapons elevators"
+        ],
+        "drawbacks": [
+            "Extremely High Cost ($13B+)",
+            "EMALS reliability issues",
+            "Large target for anti-ship missiles",
+            "High maintenance complexity"
+        ],
+        "stats": {
+            "firepower": 95,
+            "stealth": 20,
+            "endurance": 100,
+            "versatility": 90
+        }
+    },
+    {
+        "id": "type-055",
+        "name": "Type 055 (Renhai-class)",
+        "class": "Destroyer / Cruiser",
+        "nation": "China",
+        "displacement": "13,000 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Massive Firepower (112 VLS cells)",
+            "Modern dual-band radar systems",
+            "Capable of Area Air Defense",
+            "Low radar cross-section"
+        ],
+        "drawbacks": [
+            "Untested in real-world combat",
+            "Potential radar gaps at rear",
+            "Traditional gas propulsion",
+            "Uncertain weapon-sensor integration"
+        ],
+        "stats": {
+            "firepower": 92,
+            "stealth": 60,
+            "endurance": 75,
+            "versatility": 85
+        }
+    },
+    {
+        "id": "zumwalt",
+        "name": "USS Zumwalt (DDG-1000)",
+        "class": "Stealth Destroyer",
+        "nation": "USA",
+        "displacement": "16,000 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Revolutionary Stealth Design",
+            "Advanced Integrated Power System",
+            "Multi-mission hull form",
+            "Automated damage control"
+        ],
+        "drawbacks": [
+            "Reduced fleet size (only 3 built)",
+            "Main gun system disabled",
+            "High cost per unit (~$9B)",
+            "Reduced air defense vs AEGIS"
+        ],
+        "stats": {
+            "firepower": 70,
+            "stealth": 95,
+            "endurance": 80,
+            "versatility": 75
+        }
+    },
+    {
+        "id": "sejong-great",
+        "name": "Sejong the Great-class",
+        "class": "Guided Missile Destroyer",
+        "nation": "South Korea",
+        "displacement": "11,000 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Highest VLS capacity (128 cells)",
+            "Full AEGIS Combat System",
+            "Excellent ballistic missile defense",
+            "Strong localized production"
+        ],
+        "drawbacks": [
+            "Limited stealth shaping",
+            "Large crew requirements",
+            "High maintenance costs",
+            "Dependency on US systems"
+        ],
+        "stats": {
+            "firepower": 98,
+            "stealth": 40,
+            "endurance": 70,
+            "versatility": 80
+        }
+    },
+    {
+        "id": "kirov",
+        "name": "Kirov-class Battlecruiser",
+        "class": "Nuclear Battlecruiser",
+        "nation": "Russia",
+        "displacement": "28,000 tons",
+        "speed": "32 knots",
+        "strengths": [
+            "Overwhelming missile load (352+)",
+            "Nuclear propulsion",
+            "Massive P-700 Granit missiles",
+            "Modernized with Zircon hypersonic"
+        ],
+        "drawbacks": [
+            "Aging platform",
+            "Lack of heavy physical armor",
+            "Vulnerable to submarines",
+            "Operational availability issues"
+        ],
+        "stats": {
+            "firepower": 99,
+            "stealth": 10,
+            "endurance": 95,
+            "versatility": 70
+        }
+    },
+    {
+        "id": "fujian",
+        "name": "Fujian (Type 003)",
+        "class": "Aircraft Carrier",
+        "nation": "China",
+        "displacement": "80,000+ tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Electromagnetic Catapults (EMALS)",
+            "Largest non-nuclear carrier",
+            "Advanced J-35 stealth fighter capability",
+            "Domestically integrated systems"
+        ],
+        "drawbacks": [
+            "设计缺陷 limits simultaneous ops",
+            "Non-nuclear endurance",
+            "Untested EMALS reliability",
+            "Complex carrier group integration"
+        ],
+        "stats": {
+            "firepower": 85,
+            "stealth": 30,
+            "endurance": 60,
+            "versatility": 88
+        }
+    },
+    {
+        "id": "queen-elizabeth",
+        "name": "HMS Queen Elizabeth",
+        "class": "Aircraft Carrier",
+        "nation": "UK",
+        "displacement": "65,000 tons",
+        "speed": "25 knots",
+        "strengths": [
+            "Highly automated systems",
+            "Twin island design for redundancy",
+            "Optimized for F-35B operations",
+            "Flexible amphibious support roles"
+        ],
+        "drawbacks": [
+            "Lack of CATOBAR launch system",
+            "Maintenance challenges",
+            "Limited point defense",
+            "Depends on F-35B STOVL limits"
+        ],
+        "stats": {
+            "firepower": 60,
+            "stealth": 40,
+            "endurance": 80,
+            "versatility": 85
+        }
+    },
+    {
+        "id": "virginia-block-v",
+        "name": "Virginia-class Block V",
+        "class": "Attack Submarine",
+        "nation": "USA",
+        "displacement": "10,200 tons",
+        "speed": "25+ knots",
+        "strengths": [
+            "Virginia Payload Module (huge capacity)",
+            "Multi-mission Tomahawk strike",
+            "Advanced ISR capabilities",
+            "Unmatched underwater stealth"
+        ],
+        "drawbacks": [
+            "Extremely high unit cost",
+            "Complex technical maintenance",
+            "Production delays",
+            "Large size for shallow waters"
+        ],
+        "stats": {
+            "firepower": 90,
+            "stealth": 98,
+            "endurance": 100,
+            "versatility": 92
+        }
+    },
+    {
+        "id": "yasen-m",
+        "name": "Yasen-M Class",
+        "class": "Attack Submarine",
+        "nation": "Russia",
+        "displacement": "13,000 tons",
+        "speed": "28+ knots",
+        "strengths": [
+            "Heavy missile punch (Zircon/Onyx)",
+            "Composite acoustic insulation",
+            "Multi-purpose strike platform",
+            "Advanced MGK-600 sonar"
+        ],
+        "drawbacks": [
+            "Limited number of active units",
+            "Crew training challenges",
+            "High maintenance requirements",
+            "Slower production cycle"
+        ],
+        "stats": {
+            "firepower": 94,
+            "stealth": 90,
+            "endurance": 95,
+            "versatility": 85
+        }
+    },
+    {
+        "id": "arleigh-burke-iii",
+        "name": "Arleigh Burke Flight III",
+        "class": "Guided Missile Destroyer",
+        "nation": "USA",
+        "displacement": "9,700 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "AN/SPY-6(V)1 AMDR Radar",
+            "Aegis Baseline 10 combat system",
+            "Elite Ballistic Missile Defense",
+            "Highly versatile multi-mission"
+        ],
+        "drawbacks": [
+            "Power generation limits for lasers",
+            "Lacks the brute VLS count of Type 055",
+            "Aging hull design evolution",
+            "High operational tempo wear"
+        ],
+        "stats": {
+            "firepower": 88,
+            "stealth": 50,
+            "endurance": 85,
+            "versatility": 95
+        }
+    },
+    {
+        "id": "type-45",
+        "name": "Type 45 (Daring-class)",
+        "class": "Air Defense Destroyer",
+        "nation": "UK",
+        "displacement": "8,000 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Sea Viper / SAMPSON AESA radar",
+            "Tracks 1000+ targets simultaneously",
+            "World-class situational awareness",
+            "Stealthy superstructure"
+        ],
+        "drawbacks": [
+            "Unreliable propulsion in warm waters",
+            "Limited land-attack capability",
+            "Small VLS count (48 cells)",
+            "Minimal anti-submarine capacity"
+        ],
+        "stats": {
+            "firepower": 65,
+            "stealth": 70,
+            "endurance": 75,
+            "versatility": 60
+        }
+    },
+    {
+        "id": "nilgiri",
+        "name": "INS Nilgiri Class",
+        "class": "Stealth Frigate",
+        "nation": "India",
+        "displacement": "6,600 tons",
+        "speed": "28 knots",
+        "strengths": [
+            "BrahMos supersonic cruise missiles",
+            "Barak-8 LRSAM system",
+            "Advanced stealth shaping",
+            "Integrated CODAG propulsion"
+        ],
+        "drawbacks": [
+            "Limited heavy firepower vs cruisers",
+            "Sub-optimal endurance for blue water",
+            "Complex multi-nation tech integration",
+            "Production timeline delays"
+        ],
+        "stats": {
+            "firepower": 82,
+            "stealth": 75,
+            "endurance": 65,
+            "versatility": 78
+        }
+    },
+    {
+        "id": "vikrant",
+        "name": "INS Vikrant (IAC-I)",
+        "class": "Aircraft Carrier",
+        "nation": "India",
+        "displacement": "45,000 tons",
+        "speed": "28 knots",
+        "strengths": [
+            "Indigenous design and construction",
+            "STOBAR with 36 aircraft capacity",
+            "Advanced multi-function radar",
+            "High maneuverability for its size"
+        ],
+        "drawbacks": [
+            "Smaller air wing than US supercarriers",
+            "Lacks CATOBAR launch system",
+            "Pending full MiG-29K replacement",
+            "Integration phase for new assets"
+        ],
+        "stats": {
+            "firepower": 75,
+            "stealth": 30,
+            "endurance": 75,
+            "versatility": 80
+        }
+    },
+    {
+        "id": "visakhapatnam",
+        "name": "INS Visakhapatnam-class",
+        "class": "Stealth Guided Missile Destroyer",
+        "nation": "India",
+        "displacement": "7,400 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Elite BrahMos missile integration",
+            "P15B project stealth shaping",
+            "Barak-8 ER missile system",
+            "Advanced sensor suite"
+        ],
+        "drawbacks": [
+            "Limited unit count (4 planned)",
+            "High cost of stealth materials",
+            "Dependency on foreign radar tech",
+            "Maintenance of complex sensors"
+        ],
+        "stats": {
+            "firepower": 90,
+            "stealth": 82,
+            "endurance": 70,
+            "versatility": 85
+        }
+    },
+    {
+        "id": "astute",
+        "name": "Astute Class",
+        "class": "Attack Submarine",
+        "nation": "UK",
+        "displacement": "7,400 tons",
+        "speed": "30 knots",
+        "strengths": [
+            "Ultra-quiet pump-jet propulsion",
+            "Thales 2076 world-leading sonar",
+            "Tomahawk strike capability",
+            "Advanced ISR systems"
+        ],
+        "drawbacks": [
+            "Limited unit count",
+            "Supply limits underwater endurance",
+            "High cost of development",
+            "Submerged communication limits"
+        ],
+        "stats": {
+            "firepower": 85,
+            "stealth": 99,
+            "endurance": 90,
+            "versatility": 88
+        }
+    },
+    {
+        "id": "type-054a",
+        "name": "Type 054A (Jiangkai II)",
+        "class": "Guided Missile Frigate",
+        "nation": "China",
+        "displacement": "4,000 tons",
+        "speed": "27 knots",
+        "strengths": [
+            "High reliability and cost-effective",
+            "HHQ-16 medium range SAM",
+            "Solid anti-submarine capability",
+            "Proven in global missions"
+        ],
+        "drawbacks": [
+            "Limited size for future growth",
+            "Radar based on older tech",
+            "Non-stealthy by modern standards",
+            "Reduced speed vs frontline destroyers"
+        ],
+        "stats": {
+            "firepower": 70,
+            "stealth": 50,
+            "endurance": 70,
+            "versatility": 75
+        }
+    },
+    {
+        "id": "nimitz",
+        "name": "Nimitz Class",
+        "class": "Aircraft Carrier",
+        "nation": "USA",
+        "displacement": "100,000 tons",
+        "speed": "30+ knots",
+        "strengths": [
+            "Massive air wing (60+ aircraft)",
+            "Battle-proven worldwide",
+            "Nuclear endurance",
+            "Comprehensive defensive suite"
+        ],
+        "drawbacks": [
+            "Aging tech compared to Ford class",
+            "Extreme maintenance overhead",
+            "Large crew requirement",
+            "Vulnerable to modern hypersonic"
+        ],
+        "stats": {
+            "firepower": 92,
+            "stealth": 15,
+            "endurance": 100,
+            "versatility": 85
+        }
+    },
+    {
+        "id": "charles-de-gaulle",
+        "name": "Charles de Gaulle (R91)",
+        "class": "Aircraft Carrier",
+        "nation": "France",
+        "displacement": "42,500 tons",
+        "speed": "27 knots",
+        "strengths": [
+            "Only non-US nuclear carrier",
+            "CATOBAR equipped (Rafale M)",
+            "Advanced Aster 15 defense",
+            "Highly mobile command center"
+        ],
+        "drawbacks": [
+            "High maintenance requirements",
+            "Limited speed compared to US",
+            "Single hull platform dependency",
+            "Complex nuclear refueling cycle"
+        ],
+        "stats": {
+            "firepower": 80,
+            "stealth": 25,
+            "endurance": 95,
+            "versatility": 85
+        }
+    },
+    {
+        "id": "mogami",
+        "name": "Mogami-class Frigate",
+        "class": "Stealth Frigate",
+        "nation": "Japan",
+        "displacement": "5,500 tons",
+        "speed": "30+ knots",
+        "strengths": [
+            "Advanced Futuristic Hull",
+            "Highly Automated (small crew)",
+            "Multi-mission Capability",
+            "Integrated Sensor Mast"
+        ],
+        "drawbacks": [
+            "Lightly armed for its class",
+            "Optimized for littoral ops",
+            "Untested automated systems",
+            "Limited VLS depth"
+        ],
+        "stats": {
+            "firepower": 72,
+            "stealth": 88,
+            "endurance": 65,
+            "versatility": 82
+        }
+    }
+]
