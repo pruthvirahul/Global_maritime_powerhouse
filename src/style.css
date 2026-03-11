@@ -1897,6 +1897,7 @@ h1 {
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    margin-top: 1rem;
   }
 
   .currency-grid {
@@ -1920,5 +1921,135 @@ h1 {
 
   .nav-tab-label {
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .logo-icon {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .class-pills,
+  .nation-pills {
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .cpill,
+  .pill {
+    flex-shrink: 0;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+
+  .ship-header-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .badge {
+    align-self: flex-start;
+  }
+
+  .mstat-row,
+  .missile-specs {
+    grid-template-columns: 1fr;
+  }
+
+  .currency-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+
+  .dc-val {
+    font-size: 2rem;
+  }
+
+  .dr-val {
+    font-size: 2.5rem;
+  }
+
+  .ac-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .ac-footer {
+    flex-wrap: wrap;
+  }
+
+  .cost-tag {
+    flex: 1;
+    min-width: 45%;
+    text-align: center;
+  }
+
+  .reco-card {
+    flex-direction: column;
+  }
+
+  .reco-icon {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo-row {
+    gap: 1rem;
+  }
+
+  .detail-hero-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .detail-readiness,
+  .detail-cost {
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-tab {
+    padding: 0.5rem;
+  }
+
+  .nav-tab-icon {
+    font-size: 1.2rem;
   }
 }
